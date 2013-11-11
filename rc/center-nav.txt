@@ -1,0 +1,24 @@
+.nav {
+    /*
+    some width, even 100%;
+    */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
+li {
+    position: relative;
+    float: left;
+    right: 50%;
+}
+
+a {
+    display: block;
+}

@@ -1,0 +1,10 @@
+:%s/“/"/g
+:%s/”/"/g
+:%s/‘/'/g
+:%s/’/'/g
+:%s/™/\&trade;/g
+:%s/®/\&reg;/g
+:%s/©/\&copy;/g
+:%s/—/\&mdash;/g
+:%s/–/\&ndash;/g
+:%s/…/\&hellip;/g
