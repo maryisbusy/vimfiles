@@ -11,8 +11,9 @@ map <F8> :%s///g<CR>
 
 map <F9> :set list!<CR>
 
-map <F11> :%s/border: 1px dotted/border: 0px dotted/g<CR>
-map <F12> :%s/border: 0px dotted/border: 1px dotted/g<CR>
+"map <F11> :%s/border: 1px dotted/border: 0px dotted/g<CR>
+"map <F12> :%s/border: 0px dotted/border: 1px dotted/g<CR>
+map <F12> :set spell!<CR>
 
 "map <F10> :exec OldTabs()<CR>
 map <F10> :exec ':silent !chrome %:p:8'<CR>
