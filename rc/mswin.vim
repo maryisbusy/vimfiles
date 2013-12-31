@@ -24,6 +24,7 @@ set backspace=indent,eol,start whichwrap+=<,>,[,]
 vnoremap <BS> d
 
 " CTRL-X and SHIFT-Del are Cut
+nnoremap <C-j> <C-x>
 vnoremap <C-X> "+x
 vnoremap <S-Del> "+x
 
@@ -79,6 +80,8 @@ if has("gui")
 endif
 
 " CTRL-A is Select all
+nnoremap <C-k> <C-a>
+vnoremap <C-X> "+x
 noremap <C-A> gggH<C-O>G
 inoremap <C-A> <C-O>gg<C-O>gH<C-O>G
 cnoremap <C-A> <C-C>gggH<C-O>G
