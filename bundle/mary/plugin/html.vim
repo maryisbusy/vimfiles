@@ -180,7 +180,8 @@ iab clsas class
 
 iab jqr $(document).ready(function(){<CR><cr><bs>});kk
 iab jqc $('SELECTOR').click(function(event){<CR><tab>event.preventDefault();<CR><BS>});kk
-iab jql <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+iab jql <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+iab jqll <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
 iab jqo $(document_or_parent_selector).on('click','SELECTOR',function(event){<CR><tab>event.preventDefault();<CR><BS>});kk
 
