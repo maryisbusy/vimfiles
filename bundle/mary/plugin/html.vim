@@ -108,6 +108,9 @@ iab sbd body { margin: 0; padding: 0; }
 iab sfnt #main { font-family: arial,helvetica,sans-serif; font-size: 12px; }
 iab sfo form { margin: 0; padding: 0; }
 
+iab ttu text-transform: uppercase;
+iab tdn text-decoration: none;
+
 iab slnk a:link    { color: #fff; }<CR>a:active  { color: #fff; }<CR>a:visited { color: #fff; }<CR>a:hover   { color: #fff; }
 
 iab osjs <script type="text/javascript"><CR></script>O<BS>
