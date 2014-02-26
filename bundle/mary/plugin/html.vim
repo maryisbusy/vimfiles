@@ -195,7 +195,7 @@ iab clg console.log();hi
 
 iab iefx <!--[if lte IE 9]><CR><![endif]-->ko
 
-iab bsz * {<CR>	-webkit-box-sizing: border-box;<CR>-moz-box-sizing: border-box;<CR>-ms-box-sizing: border-box;<CR>box-sizing: border-box;<CR><BS>}
+iab bsz *, *:before, *:after {<CR>	-webkit-box-sizing: border-box;<CR>-moz-box-sizing: border-box;<CR>-ms-box-sizing: border-box;<CR>box-sizing: border-box;<CR><BS>}
 
 iab brd -webkit-border-radius: n;<CR>-moz-border-radius: n;<CR>-o-border-radius: n;<CR>border-radius: n;
 
