@@ -90,8 +90,8 @@ vnoremap . :norm . <CR>
 " tab names
 set guitablabel=\[%N\]\ %t\ %M 
 
-set columns=125
-set lines=55
+"set columns=125
+"set lines=55
 
 " pathogen to make installs easier?
 "execute pathogen#infect()
