@@ -18,6 +18,9 @@ set nohls
 set noinsertmode
 set iskeyword-=_
 
+set foldenable
+set foldmethod=marker
+
 set splitbelow
 set splitright
 
