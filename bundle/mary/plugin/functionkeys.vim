@@ -1,22 +1,26 @@
+map <F1> :exec ':silent !chrome %:p:8'<CR>
 map <F2> :exec Tabs2()<CR>
 
 map <F3> :set relativenumber!<CR>
 map <F4> :set cursorline!<CR>
 map <F5> :set number!<CR>
 
-
 map <F6> :%!sort<CR>
+
 map <F7> :%s///g<CR>
 map <F8> :%s///g<CR>
 
 map <F9> :set list!<CR>
 
-"map <F11> :%s/border: 1px dotted/border: 0px dotted/g<CR>
-"map <F12> :%s/border: 0px dotted/border: 1px dotted/g<CR>
+map <F10> :%s/\/\/console/console/g<CR>
+map <F11> :%s/ console/ \/\/console/g<CR>
 map <F12> :set spell!<CR>
 
+
 "map <F10> :exec OldTabs()<CR>
-map <F10> :exec ':silent !chrome %:p:8'<CR>
+"map <F11> :%s/border: 1px dotted/border: 0px dotted/g<CR>
+"map <F12> :%s/border: 0px dotted/border: 1px dotted/g<CR>
+
 
 function! Tabs2()
     :set tabstop=2 
