@@ -68,7 +68,7 @@ map t2 :set softtabstop=2<CR>
 map t4 :set softtabstop=4<CR>
 
 "cab revim :source $VIM/_vimrc
-cab revim :source ~\_vimrc
+cab revim :source ~\_gvimrc
 "cab rcem :source $VIM/rc/email.vim
 "cab rcfnt :source $VIM/rc/fonts.vim
 

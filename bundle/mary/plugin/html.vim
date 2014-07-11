@@ -36,8 +36,9 @@ iab su <u>
 iab eu </u>
 "iab sdv <div
 iab sdv <div >h
+"iab sdv <div>h
 iab edv </div>
-iab ssp <span >h
+iab ssp <span>h
 iab esp </span>
 iab sfm <form>
 iab efm </form>
@@ -178,6 +179,9 @@ iab styel style
 iab bodl bold
 iab palin plain
 iab postion position
+iab psotion position
+iab psoiton position
+iab psitoin posotion
 iab aboslute absolute
 iab clsas class
 
