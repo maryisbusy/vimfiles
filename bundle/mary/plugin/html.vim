@@ -74,7 +74,7 @@ iab docxtr <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:
 iab hhdr <html>
 "iab hdr <html><CR><head><CR><title></title><CR></head>k$bhhh
 "iab ohdr <html><CR><head><CR><title></title><CR></head><CR><body>kk$bhhh
-iab hdr <!doctype html><CR><html lang="en"><CR><head><CR><meta charset="utf-8"><CR><title></title><CR></head><CR><body>kk$bhhh
+iab hdr <!doctype html><CR><html lang="en"><CR><head><CR><meta charset="utf-8"><CR><meta http-equiv="X-UA-Compatible" content="IE=edge"><CR><title></title><CR><meta name="description" content=""><CR><meta name="viewport" content="width=device-width, initial-scale=1"><CR></head><CR><body>kkkk$bhhh
 iab ohdr <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/html4/loose.dtd"><CR><html lang="en"><CR><head><CR><meta http-equiv="content-type" content="text/html; charset=utf-8"><CR><title></title><CR></head><CR><body>kk$bhhh
 iab hdc <html><CR><body><CR><center>
 iab ftr </body><CR></html>
