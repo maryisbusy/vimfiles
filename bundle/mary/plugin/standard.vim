@@ -72,10 +72,6 @@ cab revim :source ~\_gvimrc
 "cab rcem :source $VIM/rc/email.vim
 "cab rcfnt :source $VIM/rc/fonts.vim
 
-"au BufNewFile,BufRead *html,*asp set softtabstop=2
-au BufNewFile,BufRead *json set ft=javascript
-au BufNewFile,BufRead *hamlbars set ft=haml
-
 set fileencoding=utf8
 
 inoremap jj 
