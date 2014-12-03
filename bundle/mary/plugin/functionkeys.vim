@@ -1,5 +1,5 @@
 map <F1> :exec ':silent !chrome %:p:8'<CR>
-map <F2> :exec Tabs2()<CR>
+map <F2> :call Tabs()<CR>
 
 map <F3> :set relativenumber!<CR>
 map <F4> :set cursorline!<CR>
@@ -21,12 +21,18 @@ map <F12> :set spell!<CR>
 "map <F11> :%s/border: 1px dotted/border: 0px dotted/g<CR>
 "map <F12> :%s/border: 0px dotted/border: 1px dotted/g<CR>
 
+function! Tabs()
+    :set tabstop=4 
+    :set softtabstop=4 
+    :set shiftwidth=4 
+    :set noexpandtab
+endfunction
 
-function! Tabs2()
+function! Sp2()
     :set tabstop=2 
     :set softtabstop=2 
     :set shiftwidth=2 
-    :retab
+    :set expandtab
 endfunction
 
 function! OldTabs()
