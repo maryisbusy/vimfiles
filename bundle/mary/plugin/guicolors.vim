@@ -1,7 +1,8 @@
 syntax on
 set background=dark
 "set gfn=Courier_New:h9:cANSI
-set gfn=ProggyCleanSZCP:h8:cANSI
+"set gfn=ProggyCleanSZCP:h8:cANSI
+set gfn=CamingoCode:h10:cANSI
 hi Comment	term=bold cterm=bold
 hi Constant	ctermfg=3
 hi Special	ctermfg=1
