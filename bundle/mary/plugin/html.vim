@@ -20,7 +20,7 @@ iab vc align="center"
 iab vr align="right"
 iab vl valign="bottom"
 
-iab ahr <a href="#">hhh
+iab ahr <a href="#"></a>bhhh
 iab ea </a>
 iab tb target="_blank"
 
@@ -35,10 +35,10 @@ iab eem </em>
 iab su <u>
 iab eu </u>
 "iab sdv <div
-iab sdv <div >h
+iab sdv <div class=""><CR></div>kf"
 "iab sdv <div>h
 iab edv </div>
-iab ssp <span>h
+iab ssp <span></span>bhhh
 iab esp </span>
 iab sfm <form>
 iab efm </form>
@@ -213,5 +213,5 @@ cab qit   :source $HOME\vimfiles\rc\quoteit.inc
 cab qsit  :source $HOME\vimfiles\rc\quoteit-strict.inc
 cab lcl   :source $HOME\vimfiles\rc\localize.inc
 
-cab ir :r $HOME\vimfiles\rc\image-replace.txt
+cab imgr :r $HOME\vimfiles\rc\image-replace.txt
 cab cnav :r $HOME\vimfiles\rc\center-nav.txt
