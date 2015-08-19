@@ -183,9 +183,11 @@ iab palin plain
 iab postion position
 iab psotion position
 iab psoiton position
-iab psitoin posotion
+iab psitoin position
+iab positoin position
 iab aboslute absolute
 iab clsas class
+iab backgorund background
 
 iab jqr $(document).ready(function(){<CR><cr><bs>});kk
 iab jqc $('SELECTOR').click(function(event){<CR><tab>event.preventDefault();<CR><BS>});kk
