@@ -204,11 +204,12 @@ iab clg console.log();hi
 iab iefx <!--[if lte IE 9]><CR><![endif]-->ko
 
 "iab bsz *, *:before, *:after {<CR>	-webkit-box-sizing: border-box;<CR>-moz-box-sizing: border-box;<CR>-ms-box-sizing: border-box;<CR>box-sizing: border-box;<CR><BS>}
-iab bsz html {<CR>	-webkit-box-sizing: border-box;<CR>-moz-box-sizing: border-box;<CR>-ms-box-sizing: border-box;<CR>box-sizing: border-box;<CR><BS>}<CR><CR>*, *:before, *:after {<CR>	-webkit-box-sizing: inherit;<CR>-moz-box-sizing: inherit;<CR>-ms-box-sizing: inherit;<CR>box-sizing: inherit;<CR><BS>}
+"iab bsz html {<CR>	-webkit-box-sizing: border-box;<CR>-moz-box-sizing: border-box;<CR>-ms-box-sizing: border-box;<CR>box-sizing: border-box;<CR><BS>}<CR><CR>*, *:before, *:after {<CR>	-webkit-box-sizing: inherit;<CR>-moz-box-sizing: inherit;<CR>-ms-box-sizing: inherit;<CR>box-sizing: inherit;<CR><BS>}
+iab bsz html {<CR>	box-sizing: border-box;<CR><BS>}<CR><CR>*, *:before, *:after {<CR>	box-sizing: inherit;<CR><BS>}
 
 iab cfx .clearfix:before,<CR>.clearfix:after {<CR>    content: " ";<CR>display: table;<CR><BS>}<CR><CR>.clearfix:after {<CR>    clear: both;<CR><BS>}
 
-iab brd -webkit-border-radius: n;<CR>-moz-border-radius: n;<CR>-o-border-radius: n;<CR>border-radius: n;
+iab brd border-radius:
 
 cab clnit :source $HOME\vimfiles\rc\cleanit.inc
 cab qit   :source $HOME\vimfiles\rc\quoteit.inc
