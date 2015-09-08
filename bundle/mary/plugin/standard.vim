@@ -87,7 +87,7 @@ vnoremap . :norm . <CR>
 ":nunmap <C-A>
 
 " tab names
-set guitablabel=\[%N\]\ %t\ %M 
+set guitablabel=\[%N\]\ %t\ %M
 
 "set columns=125
 "set lines=55
