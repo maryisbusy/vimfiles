@@ -148,9 +148,8 @@ iab adl http://coreg.emarketmakers.com/autodownload/dl.aspx?pub_id=2367&offer_id
 
 iab wxh width= height=1bbb
 
-iab clr <img border=0 src="">2h
-iab clrn <img border=0 src="">2h
-iab clf <img border=0 src="http://placehold.it/300x300/ccc/999/&text=">2h
+iab clr <img src="">2h
+iab clf <img src="http://placehold.it/300x300/ccc/999/&text=">2h
 
 iab rdr  <% Response.Redirect "?" & Request.QueryString %>
 iab xrdr <% Response.Redirect("index.asp?" + Request.QueryString, true); %>
