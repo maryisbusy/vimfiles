@@ -12,6 +12,7 @@ au BufNewFile,BufRead *.hamlbars set ft=haml
 
 autocmd BufRead,BufNewFile $HOME/Source/Repos/* set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 autocmd BufRead,BufNewFile c:/wamp/www/steve-jobs/github/* set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd BufRead,BufNewFile c:/wamp/www/toy/bb/* set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 
 match ErrorMsg '\s\+$'
 
