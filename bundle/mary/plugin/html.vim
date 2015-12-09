@@ -187,6 +187,7 @@ iab positoin position
 iab aboslute absolute
 iab clsas class
 iab backgorund background
+iab funciton function
 
 iab jqr $(document).ready(function(){<CR><cr><bs>});kk
 iab jqc $('SELECTOR').click(function(event){<CR><tab>event.preventDefault();<CR><BS>});kk
@@ -217,3 +218,6 @@ cab lcl   :source $HOME\vimfiles\rc\localize.inc
 
 cab imgr :r $HOME\vimfiles\rc\image-replace.txt
 cab cnav :r $HOME\vimfiles\rc\center-nav.txt
+
+iab bcm <!--
+iab ecm -->
