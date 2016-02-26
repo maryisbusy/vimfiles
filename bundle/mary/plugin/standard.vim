@@ -18,6 +18,9 @@ set nohls
 set noinsertmode
 set iskeyword-=_
 
+set relativenumber
+set number
+
 set foldenable
 set foldmethod=marker
 
