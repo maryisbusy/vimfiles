@@ -9,8 +9,8 @@ map <F7> :%s///g<CR>
 map <F8> :%s///g<CR>
 
 
-map <F10> :%s/\/\/console/console/g<CR>
-map <F11> :%s/ console/ \/\/console/g<CR>
+map <F10> :%s/\/\/ console.log/console.log/g<CR>
+map <F11> :%s/console.log/\/\/ console.log/g<CR>
 map <F12> :set spell!<CR>
 
 
