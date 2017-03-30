@@ -6,6 +6,7 @@ set history=200
 "set title titlestring=%t
 "set title titlestring=%t%(\ %M%)%(\ (%{expand(\"%:~:.:h\")})%)%(\ %a%)
 
+set autochdir
 set mousehide
 set wrapscan
 set visualbell
