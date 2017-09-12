@@ -12,6 +12,7 @@ vmap ,u    "zdi<u><C-R>z</u><ESC>T>
 vmap ,s    "zdi<span><C-R>z</span><ESC>T>hh
 vmap ,d    "zdi<div><C-R>z</div><ESC>T>h
 vmap ,h    "zdi<h2><C-R>z</h2><ESC>F>
+vmap ,"    "zdi&ldquo;<C-R>z&rdquo;<ESC>F>
 
 iab fnt <font face="arial,helvetica,sans-serif" size=2>
 iab ef </font>
