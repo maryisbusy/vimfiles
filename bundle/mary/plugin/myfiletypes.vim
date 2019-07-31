@@ -1,9 +1,10 @@
 au BufRead,BufNewFile *.aspx   set filetype=aspvbs
-au BufRead,BufNewFile *.inc    set filetype=html
+"au BufRead,BufNewFile *.inc    set filetype=html
+au BufRead,BufNewFile *.php    set filetype=html
 "au BufRead,BufNewFile *.cshtml set filetype=cs
 au BufRead,BufNewFile *.cshtml set filetype=html
-au BufRead,BufNewFile *.master set filetype=html
-au BufRead,BufNewFile *.rt set filetype=html
+"au BufRead,BufNewFile *.master set filetype=html
+"au BufRead,BufNewFile *.rt set filetype=html
 
 "au BufNewFile,BufRead *html,*asp set softtabstop=2
 au BufNewFile,BufRead *.json set ft=javascript
