@@ -192,7 +192,7 @@ iab funciton function
 
 iab jqr $(document).ready(function(){<CR><cr><bs>});kk
 iab jqc $('SELECTOR').click(function(event){<CR><tab>event.preventDefault();<CR><BS>});kk
-iab jqo $(document_or_parent_selector).on('click','SELECTOR',function(event){<CR><tab>event.preventDefault();<CR><BS>});kk
+iab jqo $(document_or_parent_selector).on('click', 'SELECTOR', function (evt){<CR><tab>evt.preventDefault();<CR><BS>});kk
 iab jql <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 iab gsap <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.19.1_92cf05aba6ca4ea5cbc62b5a7cb924e3_min.js"></script>
