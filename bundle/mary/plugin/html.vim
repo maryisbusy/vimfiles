@@ -214,7 +214,6 @@ iab brd border-radius:
 
 cab clnit :source $HOME\vimfiles\rc\cleanit.inc
 cab qit   :source $HOME\vimfiles\rc\quoteit.inc
-cab qsit  :source $HOME\vimfiles\rc\quoteit-strict.inc
 cab lcl   :source $HOME\vimfiles\rc\localize.inc
 
 cab imgr :r $HOME\vimfiles\rc\image-replace.txt
